@@ -25,3 +25,14 @@ Route::get('/', function () {
 
 // NCAAB players collection routes
 Route::get('/players', 'PlayerController@index');
+Route::post('/players', 'PlayerController@create');
+
+// Albums singular routes
+Route::get('/players/{id}', 'PlayerController@show');
+Route::put('/players/{id}', 'PlayerController@update');
+Route::delete('/players/{id}', 'PlayerController@destroy');
+
+
+Route::get('/', function () {
+    return view('welcome');
+});
