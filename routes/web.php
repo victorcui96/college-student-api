@@ -22,3 +22,6 @@ Route::delete('/albums/{id}', 'AlbumController@destroy');
 Route::get('/', function () {
     return view('welcome');
 });
+
+// NCAAB players collection routes
+Route::get('/players', 'PlayerController@index');
