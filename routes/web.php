@@ -27,10 +27,20 @@ Route::get('/', function () {
 Route::get('/players', 'PlayerController@index');
 Route::post('/players', 'PlayerController@create');
 
-// Albums singular routes
+// NCAAB players singular routes
 Route::get('/players/{id}', 'PlayerController@show');
 Route::put('/players/{id}', 'PlayerController@update');
 Route::delete('/players/{id}', 'PlayerController@destroy');
+
+// Sorting Algorithms collection routes
+Route::get('/algorithms', 'AlgorithmController@index');
+Route::post('/algorithms', 'AlgorithmController@create');
+
+// Sorting Algorithms singular routes
+Route::get('/algorithms/{id}', 'AlgorithmController@show');
+Route::put('/algorithms/{id}', 'AlgorithmController@update');
+Route::delete('/algorithms/{id}', 'AlgorithmController@destroy');
+
 
 
 Route::get('/', function () {

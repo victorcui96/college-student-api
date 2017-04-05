@@ -15,6 +15,7 @@ class CreateSortingAlgorithmsTable extends Migration
     {
         Schema::create('sorting_algorithms', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name');
             $table->string('best_time_complexity');
             $table->string('average_time_complexity');
             $table->string('worst_time_complexity');
