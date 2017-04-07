@@ -1,5 +1,5 @@
 ## About this API
-This CollegeStudent API provides an easy interface for you to manage your favorite albums, NCAA basketball players, and sorting algorithms. It makes use of [Laravel] (https://laravel.com) on the back-end. 
+This CollegeStudent API provides an easy interface for you to manage your favorite albums, NCAA basketball players, and sorting algorithms. It makes use of [Laravel](https://laravel.com/) on the back-end. 
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
