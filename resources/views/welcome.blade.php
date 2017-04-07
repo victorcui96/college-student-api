@@ -32,7 +32,7 @@
             <div class="content row">
                 <div class="links">
                   <div class="col-md-4">
-                      <a href="#">Documentation</a>
+                      <a href="https://victorcui96.gitbooks.io/college-student-api/content/">Documentation</a>
                   </div>
                   <div class="col-md-4">
                         <a href="https://github.com/victorcui96/">
