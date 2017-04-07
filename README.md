@@ -32,7 +32,7 @@ Typing in
 ```bash
 php artisan make:migration create_whatever_table
 ```
-creates a new Database Migration, which is kind of like version control for your databases. A migration includes your schema for a mySQL table._Running_ a migration creates the schema and stores it into your mySQL database, which you can change by modifying the .env file. The Albums, NCAA Basketball Players, and sorting algorithms each have their unique mySQL table. Of course, you can create new mySQL tables by making your own migration, then running it. To run all of your outstanding migrations, execute the following:
+creates a new Database Migration, which is kind of like version control for your databases. A migration includes your schema for a mySQL table. _Running_ a migration creates the schema and stores it into your mySQL database, which you can change by modifying the .env file. The Albums, NCAA Basketball Players, and sorting algorithms each have their unique mySQL table. Of course, you can create new mySQL tables by making your own migration, then running it. To run all of your outstanding migrations, execute the following:
 ```bash
 php artisan migrate
 ```
