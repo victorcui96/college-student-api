@@ -19,9 +19,6 @@ Route::post('/albums', 'AlbumController@create');
 Route::get('/albums/{id}', 'AlbumController@show');
 Route::put('/albums/{id}', 'AlbumController@update');
 Route::delete('/albums/{id}', 'AlbumController@destroy');
-Route::get('/', function () {
-    return view('welcome');
-});
 
 // NCAAB players collection routes
 Route::get('/players', 'PlayerController@index');
@@ -41,8 +38,7 @@ Route::get('/algorithms/{id}', 'AlgorithmController@show');
 Route::put('/algorithms/{id}', 'AlgorithmController@update');
 Route::delete('/algorithms/{id}', 'AlgorithmController@destroy');
 
-
-
+// Homepage route
 Route::get('/', function () {
     return view('welcome');
 });

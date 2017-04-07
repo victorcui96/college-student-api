@@ -24,32 +24,15 @@ git clone https://github.com/victorcui96/college-student-api
 # this will fire up a local Laravel development server on your machine
 php artisan serve
 ```
+4. Visit the URL of the server in your browser
+5. Use your browser or an app like Advanced REST Client to make REST commands like **GET**, **POST**, or **PUT** to the API!
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
-
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
-
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- **[Codecourse](https://www.codecourse.com)**
-- [Fragrantica](https://www.fragrantica.com)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+## How Database Migrations Work
+Typing in
+```bash
+php artisan make:migration create_whatever_table
+```
+creates a new Database Migration, which is kind of like version control for your databases. A migration includes your schema for a mySQL table._Running_ a migration creates the schema and stores it into your mySQL database, which you can change by modifying the .env file. The Albums, NCAA Basketball Players, and sorting algorithms each have their unique mySQL table. Of course, you can create new mySQL tables by making your own migration, then running it. To run all of your outstanding migrations, execute the following:
+```bash
+php artisan migrate
+```

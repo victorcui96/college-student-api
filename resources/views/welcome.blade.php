@@ -22,7 +22,7 @@
                      <div class="panel panel-primary">
                           <div class="panel-heading"> Welcome to the <strong>CollegeStudent</strong> API </div> 
                               <div class="panel-body">
-                                  <p>I designed this API for my own personal use, although it <em>can</em> be used by anyone. I am passionate about music, NCAA basketball, and sorting algorithms, so I developed an easy way to keep track of these things. You can use the API to add your favorite albums, NCAA basketball players, and sorting algorithms. You can also query this API to view all the information about all your stored albums, NCAA basketball players, and sorting algorithms. The API conforms to <strong>REST</strong> architecture and supports the 4 standard HTTP methods <strong>GET</strong>, <strong>POST</strong>, <strong>PUT</strong>, and <strong>DELETE</strong>.
+                                  <p>I designed this API using <a href="https://laravel.com/">Laravel</a>for my own personal use, although it <em>can</em> be used by anyone. I am passionate about music, NCAA basketball, and sorting algorithms, so I developed an easy way to keep track of these things. You can use the API to add your favorite albums, NCAA basketball players, and sorting algorithms. You can also query this API to view all the information about all your stored albums, NCAA basketball players, and sorting algorithms. The API conforms to <strong>REST</strong> architecture and supports the 4 standard HTTP methods <strong>GET</strong>, <strong>POST</strong>, <strong>PUT</strong>, and <strong>DELETE</strong>.
                                   </p>
                              </div>
                     </div>
