@@ -10,6 +10,7 @@ This CollegeStudent is an API built using PHP/Laravel and provides an easy inter
 * Implementation of all singular REST routes **GET**, **PUT**, **POST**, and **DELETE**
 * Homepage route at / showing basic description of API, and a link to Gitbook documentation
 
+You can find more complete documentation of the methods you can call on this API by visiting the **Documentation** link on the / (homepage) route.
 Although you don't need to understand Laravel Models, Controllers, or database migrations in order to use the API, the curious developer can learn more about them by reading Laravel's [docs](https://laravel.com/docs/5.4). 
 
 ## Project Installation Instructions
