@@ -1,15 +1,29 @@
 ## About this API
-This CollegeStudent API provides an easy interface for you to manage your favorite albums, NCAA basketball players, and sorting algorithms. It makes use of [Laravel](https://laravel.com/) on the back-end. 
+This CollegeStudent is an API built using PHP/Laravel and provides an easy interface for you to manage your favorite albums, NCAA basketball players, and sorting algorithms. I made this API because I found myself constantly looking up those 3 items, and I wanted an easy way to add, list, update, and delete them. Some features of this API include: 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+* conforming to RESTful architectural standards, which you can read more about [here](https://developer.mailchimp.com/documentation/mailchimp/guides/an-introduction-to-rest/). 
+* 3 Laravel Models
+* 3 Laravel Controllers
+* 3 Database migrations using Laravel
+* 3 Collections of REST routes, corresponding to Albums, NCAA Basketball Players, and sorting algorithms
+* Implementation of all singular REST routes **GET**, **PUT**, **POST**, and **DELETE**
+* Implementation of all singular REST routes **GET**, **PUT**, **POST**, and **DELETE**
+* Homepage route at / showing basic description of API, and a link to Gitbook documentation
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+Although you don't need to understand Laravel Models, Controllers, or database migrations in order to use the API, the curious developer can learn more about them by reading Laravel's [docs](https://laravel.com/docs/5.4). 
+
+## Project Installation Instructions
+1. Clone this repository url somewhere on your computer
+```bash
+# type this into your terminal inside a directory of your choice
+git clone https://github.com/victorcui96/college-student-api
+```
+2. Open up a PHP/mySQL web server, such as MAMP. **NOTE:** Make sure the Document Root of the server is the **public** directory of the API
+3. In the same directory that you cloned this repo in, type
+```bash
+# this will fire up a local Laravel development server on your machine
+php artisan serve
+```
 
 ## Learning Laravel
 
